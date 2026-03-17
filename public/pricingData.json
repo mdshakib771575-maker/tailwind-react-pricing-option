@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Basic Plan",
-      "price": 20,
+      "price": "$20",
       "duration": "month",
       "description": "Perfect for beginners starting their fitness journey.",
       "features": [
@@ -15,7 +15,8 @@
     {
       "id": 2,
       "name": "Standard Plan",
-      "price": 40,
+      "popular":true,
+      "price": "$40",
       "duration": "month",
       "description": "Ideal for regular members who want extra support.",
       "features": [
@@ -29,7 +30,7 @@
     {
       "id": 3,
       "name": "Premium Plan",
-      "price": 70,
+      "price": "$70",
       "duration": "month",
       "description": "Best for advanced members who want full gym services.",
       "features": [
