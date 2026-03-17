@@ -34,15 +34,16 @@ const NavBar = () => {
 
   const [open, setOpen] = useState(false)
   return (
-    <div className='flex justify-between mx-10'>
+    <div className='flex justify-between mx-4 lg:mx-10'>
 
-      <span className='flex gap-1.5' onClick={()=>setOpen(!open)} >
-      
+      <span className='flex gap-1.5' onClick={() => setOpen(!open)} >
+
         {open ? <X className='md:hidden'></X> : <Menu className='md:hidden'></Menu>}
-        
-        <ul className='md:hidden'>
+
+        <ul className={`md:hidden absolute duration-1000 bg-white shadow p-5
+          ${open ? "top-9" : "-top-40"} `}>
           {
-             navLinks.map(raout => <Link raout={raout}></Link>)
+            navLinks.map(raout => <Link raout={raout}></Link>)
           }
         </ul>
         <h3>my navbar</h3>
