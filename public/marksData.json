@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim",
+    "marks": {
+      "bangla": 82,
+      "english": 75,
+      "math": 90,
+      "science": 85
+    }
+  },
+  {
+    "id": 2,
+    "name": "Karim",
+    "marks": {
+      "bangla": 78,
+      "english": 70,
+      "math": 88,
+      "science": 80
+    }
+  },
+  {
+    "id": 3,
+    "name": "Shakib",
+    "marks": {
+      "bangla": 90,
+      "english": 85,
+      "math": 95,
+      "science": 92
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hasan",
+    "marks": {
+      "bangla": 76,
+      "english": 72,
+      "math": 84,
+      "science": 79
+    }
+  },
+  {
+    "id": 5,
+    "name": "Jamal",
+    "marks": {
+      "bangla": 88,
+      "english": 81,
+      "math": 91,
+      "science": 87
+    }
+  },
+  {
+    "id": 6,
+    "name": "Kamal",
+    "marks": {
+      "bangla": 69,
+      "english": 74,
+      "math": 80,
+      "science": 77
+    }
+  }
+]
